@@ -1,0 +1,72 @@
+.head{
+    background-color: #2C2F33;
+    height: 52px;
+    overflow: hidden;
+}
+.head_main{
+	width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    font-family: PingFangSC-Regular;
+}
+.logo{
+	text-indent: -9999em;
+    display: block;
+    width: 125px;
+    height: 20px;
+    margin-top: 16px;
+    float: left;
+    text-align:right;
+}
+.divider,.website{
+	float: left;
+    color: white;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 52px;
+    margin: 0 10px;
+    opacity: 0.8;
+}
+.website{
+    margin:0;
+    font-size: 14px;
+    line-height: 54px;
+}
+.head_menu{
+    list-style: none;
+}
+.head_menu li{
+    list-style: none;
+    display: inline;
+    position: relative;
+    z-index: 2;
+}
+.head .head_menu li a,.login a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    line-height: 52px;
+    padding: 10px 15px;
+    margin-left: 4px;
+}
+.current-cat a,.head-menu a:hover {
+    color: #F37327;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    font-family: PingFangSC-Regular;
+}
+.login{
+    width: 340px;
+    float: right;
+    line-height: 52px;
+    color: #fff;
+    text-align: right;
+    opacity: 0.8
+}
+.login a{
+    padding:0 4px;
+    margin:0;
+    font-size:2px;
+}
